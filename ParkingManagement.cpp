@@ -48,7 +48,7 @@ void Park(int Time,string Name) {
         }
     }
     else {
-        for (int i = 5; i >= 0; i--) {
+        for (int i = 0; i<= 9; i++) {
             for (int j = 0; j < 5; j++) {
                 if (P_Arr[j][i].status == "___") {
                     row = j;
